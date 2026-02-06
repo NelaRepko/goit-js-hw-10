@@ -1,18 +1,31 @@
-/**
-  |============================
-  | include css partials with
-  | default @import url()
-  |============================
-*/
-/* Common styles */
-@import url('./reset.css');
-@import url('./base.css');
-@import url('./container.css');
-@import url('./animations.css');
+/* Список навігації */
+.nav-list {
+  list-style: none;        /* прибираємо крапки */
+  padding: 0;
+  margin: 0;
 
-/* Sections style */
-@import url('./header.css');
-@import url('./vite-promo.css');
-@import url('./badges.css');
-@import url('./back-link.css');
-@import url('./footer.css');
+  display: flex;           /* розташування пунктів в ряд */
+  gap: 24px;               /* відстань між пунктами */
+  justify-content: center; /* по центру контейнера */
+  align-items: center;
+}
+
+/* Пункти списку */
+.nav-item {
+  font-size: 18px;         /* трохи більший текст */
+}
+
+/* Посилання */
+.nav-link {
+  text-decoration: none;
+  color: #3f34ba;
+  font-weight: 500;
+  padding: 8px 12px;
+  border-radius: 6px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav-link:hover {
+  background-color: #3f34ba;
+  color: white;
+}

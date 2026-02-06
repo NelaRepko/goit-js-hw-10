@@ -1,0 +1,215 @@
+/* Контейнер: відцентрований по горизонталі */
+.container {
+  max-width: 500px;
+  margin: 0 auto; /* горизонтальне центрування */
+  padding: 40px;
+  background-color: #e6e9f1; /* можна змінити на свій колір */
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  box-sizing: border-box;
+  position: relative;
+}
+
+/* Кнопка Go Back зверху справа */
+.back-link {
+  position: absolute;
+  top: 20px;
+  right: 20px; /* праворуч */
+  padding: 8px 16px;
+  font-size: 14px;
+  text-decoration: none;
+  color: #9598e3;
+  font-weight: 500;
+  border: 2px solid #2C3096; /* рамка */
+  border-radius: 6px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.back-link:hover {
+  background-color: #3f34ba;
+  color: #ffffff;
+}
+
+/* Заголовок */
+.main-title {
+  text-align: center;
+  margin-bottom: 32px;
+  font-size: 28px;
+  font-weight: bold;
+  color: #264580;
+}
+
+/* Форма */
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px; /* відстань між елементами форми */
+}
+
+/* Поля label + input/textarea */
+.form label {
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+/* Інпут і textarea */
+.form input[type="number"],
+.form textarea {
+  margin-top: 8px;
+  padding: 12px;
+  border: 1px solid #b0bec5;
+  border-radius: 6px;
+  font-size: 16px;
+  font-family: inherit;
+}
+
+/* Radio buttons у одну лінійку і по центру */
+fieldset {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; /* по центру контейнера */
+  align-items: center;
+  gap: 16px;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #b0bec5;
+  background-color: #ffffff;
+}
+
+fieldset legend {
+  font-weight: 500;
+  margin-right: 12px;
+}
+
+fieldset label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* Кнопка */
+button[type="submit"] {
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  background-color:  #3f34ba;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+/* Контейнер: відцентрований по горизонталі */
+.container {
+  max-width: 500px;
+  margin: 0 auto; /* горизонтальне центрування */
+  padding: 40px;
+  background-color: #e6e9f1; /* можна змінити на свій колір */
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  box-sizing: border-box;
+  position: relative;
+}
+
+/* Кнопка Go Back зверху справа */
+.back-link {
+  position: absolute;
+  top: 20px;
+  right: 20px; /* праворуч */
+  padding: 8px 16px;
+  font-size: 14px;
+  text-decoration: none;
+  color: #9598e3;
+  font-weight: 500;
+  border: 2px solid #2C3096; /* рамка */
+  border-radius: 6px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.back-link:hover {
+  background-color: #3f34ba;
+  color: #ffffff;
+}
+
+/* Заголовок */
+.main-title {
+  text-align: center;
+  margin-bottom: 32px;
+  font-size: 28px;
+  font-weight: bold;
+  color: #264580;
+}
+
+/* Форма */
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px; /* відстань між елементами форми */
+}
+
+/* Поля label + input/textarea */
+.form label {
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+/* Інпут і textarea */
+.form input[type="number"],
+.form textarea {
+  margin-top: 8px;
+  padding: 12px;
+  border: 1px solid #b0bec5;
+  border-radius: 6px;
+  font-size: 16px;
+  font-family: inherit;
+}
+
+/* Radio buttons у одну лінійку і по центру */
+fieldset {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; /* по центру контейнера */
+  align-items: center;
+  gap: 16px;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #b0bec5;
+  background-color: #ffffff;
+}
+
+fieldset legend {
+  font-weight: 500;
+  margin-right: 12px;
+}
+
+fieldset label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* Кнопка */
+button[type="submit"] {
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  background-color:  #3f34ba;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #2a2f57;
+}
+
