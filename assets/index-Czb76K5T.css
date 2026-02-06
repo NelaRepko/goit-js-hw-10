@@ -1,0 +1,1 @@
+.nav-list{list-style:none;padding:0;margin:0;display:flex;gap:24px;justify-content:center;align-items:center}.nav-item{font-size:18px}.nav-link{text-decoration:none;color:#3f34ba;font-weight:500;padding:8px 12px;border-radius:6px;transition:background-color .3s ease,color .3s ease}.nav-link:hover{background-color:#3f34ba;color:#fff}
